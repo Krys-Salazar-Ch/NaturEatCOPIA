@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Entities;
 
-namespace Services.C.Product
+namespace Services.C_Categories
 {
-    public interface ISvProduct
+    public class SvCategories
     {
     }
 }
