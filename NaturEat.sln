@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaturEat", "NaturEat\NaturEat.csproj", "{2CC4A02F-0BE0-4590-87DA-370DDE714202}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{0867A45F-1B10-4590-BD45-AF72E3E0E8AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{788F5985-ABA7-43D3-8773-94425EB7B779}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CC4A02F-0BE0-4590-87DA-370DDE714202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC4A02F-0BE0-4590-87DA-370DDE714202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC4A02F-0BE0-4590-87DA-370DDE714202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC4A02F-0BE0-4590-87DA-370DDE714202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0867A45F-1B10-4590-BD45-AF72E3E0E8AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0867A45F-1B10-4590-BD45-AF72E3E0E8AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0867A45F-1B10-4590-BD45-AF72E3E0E8AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0867A45F-1B10-4590-BD45-AF72E3E0E8AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{788F5985-ABA7-43D3-8773-94425EB7B779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{788F5985-ABA7-43D3-8773-94425EB7B779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{788F5985-ABA7-43D3-8773-94425EB7B779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{788F5985-ABA7-43D3-8773-94425EB7B779}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {530A2427-27F2-4875-A9E2-19DC44C55DD3}
+	EndGlobalSection
+EndGlobal
