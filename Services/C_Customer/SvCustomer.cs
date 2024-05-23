@@ -4,19 +4,41 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Entities;
+using Services.MyBbContext;
 
 namespace Services.C_Customer
 {
     public class SvCustomer : ISvCustomer
     {
-        public Customer Add_Customer()
+        private MyContext _myDbContext = default!;
+        public SvCustomer()
         {
-            throw new NotImplementedException();
+            _myDbContext = new MyContext();
         }
 
-        public Customer Update_Customer()
+        public Customer Add_Customer(Customer customer)
         {
-            throw new NotImplementedException();
+            _myDbContext.customers.Add(customer);
+            _myDbContext.SaveChanges();
+
+            return customer;
+        }
+
+        public Customer Update_Customer(int id, Customer newCustomer)
+        {
+            Customer updateCustomer = _myDbContext.customers.Find(id);
+
+            if (updateCustomer is not null)
+            {
+                updateCustomer.Name = newCustomer.Name;
+                updateCustomer.eMail = newCustomer.eMail;
+                updateCustomer.Phone_Number= newCustomer.Phone_Number;
+
+                _myDbContext.customers.Update(updateCustomer);
+                _myDbContext.SaveChanges();
+            }
+
+            return updateCustomer;
         }
     }
 }
