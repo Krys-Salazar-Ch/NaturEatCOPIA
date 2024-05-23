@@ -8,10 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Entities
-<<<<<<< HEAD
-build_property.ProjectDir = C:\Users\Kristel\Desktop\NaturEat\NaturEat\Entities\
-=======
-build_property.ProjectDir = C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Entities\
->>>>>>> a28849f0839e4ee7dd30f404628946a676761de3
+build_property.ProjectDir = C:\Users\Angélica\Desktop\NaturEat\Entities\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
