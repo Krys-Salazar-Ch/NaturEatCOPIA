@@ -1269,23 +1269,39 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Kristel\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\greil\\.nuget\\packages\\": {},
+>>>>>>> a28849f0839e4ee7dd30f404628946a676761de3
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Services\\Services.csproj",
       "projectName": "Services",
       "projectPath": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\Kristel\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Services\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Services\\Services.csproj",
+      "projectName": "Services",
+      "projectPath": "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Services\\Services.csproj",
+      "packagesPath": "C:\\Users\\greil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Services\\obj\\",
+>>>>>>> a28849f0839e4ee7dd30f404628946a676761de3
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\Kristel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\greil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> a28849f0839e4ee7dd30f404628946a676761de3
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1301,8 +1317,13 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Entities\\Entities.csproj": {
               "projectPath": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Entities\\Entities.csproj"
+=======
+            "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Entities\\Entities.csproj"
+>>>>>>> a28849f0839e4ee7dd30f404628946a676761de3
             }
           }
         }

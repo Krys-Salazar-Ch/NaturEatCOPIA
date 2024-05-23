@@ -7,7 +7,16 @@ using Entities;
 
 namespace Services.C_Customer
 {
-    internal class SvCustomer
+    public class SvCustomer : ISvCustomer
     {
+        public Customer Add_Customer()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Customer Update_Customer()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
