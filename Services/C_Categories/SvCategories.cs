@@ -4,19 +4,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Entities;
-
+using Microsoft.EntityFrameworkCore;
+using Services.MyBbContext;
 namespace Services.C_Categories
 {
     public class SvCategories : ISvCategories
     {
-        public Categories Add_Categories()
+        private MyContext _myDbContext = default!;
+        public SvCategories()
         {
-            throw new NotImplementedException();
+            _myDbContext = new MyContext();
         }
 
-        public List<Product> Products()
+        public Categories Add_Categories(Categories categories)
         {
-            throw new NotImplementedException();
+            _myDbContext.categories.Add(categories);
+            _myDbContext.SaveChanges();
+
+            return categories;
         }
-    }
+        public List<Categories> GetAllCategories()
+        {
+            return _myDbContext.categories.Include(x => x.Products).ToList(); //quita el bucle
+        }
+
+    }  
 }

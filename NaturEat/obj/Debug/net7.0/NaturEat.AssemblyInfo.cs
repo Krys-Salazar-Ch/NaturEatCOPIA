@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NaturEat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5664158a1bea20241bb8a6d309bdd788c2a59d8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bbb4e2de7cf0cc7de540187df51050db4a0d399")]
 [assembly: System.Reflection.AssemblyProductAttribute("NaturEat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NaturEat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

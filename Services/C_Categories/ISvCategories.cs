@@ -9,8 +9,8 @@ namespace Services.C_Categories
 {
     public interface ISvCategories
     {
-        public Categories Add_Categories();
+        public Categories Add_Categories(Categories categories);
 
-        List<Product> Products();
+        public List<Categories> GetAllCategories();
     }
 }
