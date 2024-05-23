@@ -14,6 +14,5 @@ namespace Services.C_Product
         public Product Update_Poduct(int id, Product product);
         public Product Get_ById(int id);
         public void Delete_Product(int id);
-
     }
 }
