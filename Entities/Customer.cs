@@ -12,6 +12,6 @@ namespace Entities
         public string Name { get; set; }
         public string eMail { get; set; }
         public int Phone_Number { get; set; }
-        List<Order_Confirmation> Order_Confirmation { get; set; }
+        public List<Order_Confirmation>? Order_Confirmation { get; set; }
     }
 }
