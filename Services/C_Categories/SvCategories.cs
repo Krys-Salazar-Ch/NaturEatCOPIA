@@ -7,7 +7,16 @@ using Entities;
 
 namespace Services.C_Categories
 {
-    public class SvCategories
+    public class SvCategories : ISvCategories
     {
+        public Categories Add_Categories()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Product> Products()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

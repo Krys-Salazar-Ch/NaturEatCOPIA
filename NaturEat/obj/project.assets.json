@@ -1247,23 +1247,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kathe\\.nuget\\packages\\": {},
+    "C:\\Users\\Kristel\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\NaturEat\\NaturEat.csproj",
+      "projectUniqueName": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\NaturEat\\NaturEat.csproj",
       "projectName": "NaturEat",
-      "projectPath": "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\NaturEat\\NaturEat.csproj",
-      "packagesPath": "C:\\Users\\kathe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\NaturEat\\obj\\",
+      "projectPath": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\NaturEat\\NaturEat.csproj",
+      "packagesPath": "C:\\Users\\Kristel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\NaturEat\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\kathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kristel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
