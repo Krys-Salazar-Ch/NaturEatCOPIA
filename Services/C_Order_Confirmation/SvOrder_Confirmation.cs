@@ -9,7 +9,7 @@ namespace Services.C_Order_Confirmation
 {
     public class SvOrder_Confirmation : ISvOrder
     {
-        public Order_Confirmation Add_Order()
+        public Order_Confirmation Add_Order(Order_Confirmation order_Confirmation)
         {
             throw new NotImplementedException();
         }
@@ -29,7 +29,7 @@ namespace Services.C_Order_Confirmation
             throw new NotImplementedException();
         }
 
-        public Order_Confirmation Update_Confirmation()
+        public Order_Confirmation Update_Confirmation(Order_Confirmation order_Confirmation)
         {
             throw new NotImplementedException();
         }

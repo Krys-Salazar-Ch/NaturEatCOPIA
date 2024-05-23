@@ -9,11 +9,15 @@ namespace Entities
     public class Order_Confirmation
     {
         public int Id { get; set; }
-        public string Date { get; set; }
+        public string? Date { get; set; }
 
-        public Customer CustomerId { get; set; }
-        public Categories CategoriesId { get; set; }
+        public double Total { get; set; }
 
-        List<Product> products { get; set; }
+        public double SubTotal { get; set; }
+
+        public Customer? CustomerId { get; set; }
+        public Categories? CategoriesId { get; set; }
+
+        List<Product>? products { get; set; }
     }
 }
