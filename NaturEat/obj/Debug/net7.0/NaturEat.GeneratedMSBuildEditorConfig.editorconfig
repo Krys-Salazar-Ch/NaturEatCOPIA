@@ -9,11 +9,19 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NaturEat
 build_property.RootNamespace = NaturEat
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\
+=======
+build_property.ProjectDir = C:\Users\kathe\OneDrive\Escritorio\API p\NaturEatCOPIA\NaturEat\
+>>>>>>> 1bbb4e2de7cf0cc7de540187df51050db4a0d399
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+<<<<<<< HEAD
 build_property.MSBuildProjectDirectory = C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat
+=======
+build_property.MSBuildProjectDirectory = C:\Users\kathe\OneDrive\Escritorio\API p\NaturEatCOPIA\NaturEat
+>>>>>>> 1bbb4e2de7cf0cc7de540187df51050db4a0d399
 build_property._RazorSourceGeneratorDebug = 
