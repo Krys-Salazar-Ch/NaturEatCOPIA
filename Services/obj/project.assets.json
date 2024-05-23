@@ -1269,23 +1269,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kathe\\.nuget\\packages\\": {},
+    "C:\\Users\\greil\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\Services\\Services.csproj",
+      "projectUniqueName": "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\Services\\Services.csproj",
-      "packagesPath": "C:\\Users\\kathe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\Services\\obj\\",
+      "projectPath": "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Services\\Services.csproj",
+      "packagesPath": "C:\\Users\\greil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\kathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\greil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1301,8 +1301,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\Entities\\Entities.csproj"
+            "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Entities\\Entities.csproj"
             }
           }
         }
