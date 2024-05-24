@@ -1,83 +1,62 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Entities;
 using Microsoft.AspNetCore.Mvc;
+using Services.C_Order_Confirmation;
 
-namespace NaturEat.Controllers
+// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
+namespace API_PruebaEF.Controllers
 {
-    public class OrderController : Controller
+    [Route("api/[controller]")]
+    [ApiController]
+    public class AuthorsController : ControllerBase
     {
-        // GET: OrderController
-        public ActionResult Index()
+        private ISvOrder _svOrder;
+        public AuthorsController(ISvOrder svOrder)
         {
-            return View();
+            _svAuthor = svAuthor;
         }
 
-        // GET: OrderController/Details/5
-        public ActionResult Details(int id)
+        // GET: api/<AuthorsController>
+        [HttpGet]
+        public IEnumerable<Author> Get()
         {
-            return View();
+            return _svAuthor.GetAllAuthors();
         }
 
-        // GET: OrderController/Create
-        public ActionResult Create()
+        // GET api/<AuthorsController>/5
+        [HttpGet("{id}")]
+        public Author Get(int id)
         {
-            return View();
+            return _svAuthor.GetAuthorById(id);
         }
 
-        // POST: OrderController/Create
+        // POST api/<AuthorsController>
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public void Post([FromBody] Author author)
         {
-            try
+            _svAuthor.AddAuthor(new Author
             {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+                Name = author.Name,
+                LastName = author.LastName
+            });
         }
 
-        // GET: OrderController/Edit/5
-        public ActionResult Edit(int id)
+        // PUT api/<AuthorsController>/5
+        [HttpPut("{id}")]
+        public void Put(int id, [FromBody] Author author)
         {
-            return View();
+            _svAuthor.UpdateAuthor(id, new Author
+            {
+                Name = author.Name,
+                LastName = author.LastName
+            });
         }
 
-        // POST: OrderController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        // DELETE api/<AuthorsController>/5
+        [HttpDelete("{id}")]
+        public void Delete(int id)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: OrderController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: OrderController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            _svAuthor.DeleteAuthor(id);
         }
     }
 }

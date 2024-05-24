@@ -9,11 +9,27 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NaturEat
 build_property.RootNamespace = NaturEat
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Kristel\Desktop\NaturEat\NaturEat\NaturEat\
+=======
+<<<<<<< HEAD
+build_property.ProjectDir = C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\
+=======
+build_property.ProjectDir = C:\Users\kathe\OneDrive\Escritorio\API p\NaturEatCOPIA\NaturEat\
+>>>>>>> 760d8bb0931bdeb4295567a638d9564d49d3e44a
+>>>>>>> 850783515461aae1531605d155e801dbabc2411a
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+<<<<<<< HEAD
 build_property.MSBuildProjectDirectory = C:\Users\Kristel\Desktop\NaturEat\NaturEat\NaturEat
+=======
+<<<<<<< HEAD
+build_property.MSBuildProjectDirectory = C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat
+=======
+build_property.MSBuildProjectDirectory = C:\Users\kathe\OneDrive\Escritorio\API p\NaturEatCOPIA\NaturEat
+>>>>>>> 760d8bb0931bdeb4295567a638d9564d49d3e44a
+>>>>>>> 850783515461aae1531605d155e801dbabc2411a
 build_property._RazorSourceGeneratorDebug = 

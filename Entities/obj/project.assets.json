@@ -1247,23 +1247,55 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Kristel\\.nuget\\packages\\": {},
+=======
+<<<<<<< HEAD
+    "C:\\Users\\greil\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\kathe\\.nuget\\packages\\": {},
+>>>>>>> 760d8bb0931bdeb4295567a638d9564d49d3e44a
+>>>>>>> 850783515461aae1531605d155e801dbabc2411a
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Entities\\Entities.csproj",
       "projectName": "Entities",
       "projectPath": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\Kristel\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Entities\\obj\\",
+=======
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Entities\\Entities.csproj",
+      "projectName": "Entities",
+      "projectPath": "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Entities\\Entities.csproj",
+      "packagesPath": "C:\\Users\\greil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Entities\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\Entities\\Entities.csproj",
+      "projectName": "Entities",
+      "projectPath": "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\Entities\\Entities.csproj",
+      "packagesPath": "C:\\Users\\kathe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\Entities\\obj\\",
+>>>>>>> 760d8bb0931bdeb4295567a638d9564d49d3e44a
+>>>>>>> 850783515461aae1531605d155e801dbabc2411a
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\Kristel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+<<<<<<< HEAD
+        "C:\\Users\\greil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\kathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 760d8bb0931bdeb4295567a638d9564d49d3e44a
+>>>>>>> 850783515461aae1531605d155e801dbabc2411a
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1332,13 +1364,26 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
       }
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 850783515461aae1531605d155e801dbabc2411a
   },
   "logs": [
     {
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
+<<<<<<< HEAD
       "message": "Problema al leer el archivo de caché C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Entities\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
+=======
+      "message": "Problem reading the cache file C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Entities\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
+=======
+  }
+>>>>>>> 760d8bb0931bdeb4295567a638d9564d49d3e44a
+>>>>>>> 850783515461aae1531605d155e801dbabc2411a
 }

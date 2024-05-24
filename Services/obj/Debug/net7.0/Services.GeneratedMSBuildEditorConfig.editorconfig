@@ -8,6 +8,14 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Services
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Kristel\Desktop\NaturEat\NaturEat\Services\
+=======
+<<<<<<< HEAD
+build_property.ProjectDir = C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Services\
+=======
+build_property.ProjectDir = C:\Users\kathe\OneDrive\Escritorio\API p\NaturEatCOPIA\Services\
+>>>>>>> 760d8bb0931bdeb4295567a638d9564d49d3e44a
+>>>>>>> 850783515461aae1531605d155e801dbabc2411a
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
