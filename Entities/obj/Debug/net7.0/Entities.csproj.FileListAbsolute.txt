@@ -4,3 +4,9 @@ C:\Users\kathe\OneDrive\Escritorio\API p\NaturEatCOPIA\Entities\obj\Debug\net7.0
 C:\Users\kathe\OneDrive\Escritorio\API p\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
 C:\Users\kathe\OneDrive\Escritorio\API p\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
 C:\Users\kathe\OneDrive\Escritorio\API p\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.sourcelink.json
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.csproj.AssemblyReference.cache
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.AssemblyInfoInputs.cache
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.sourcelink.json
