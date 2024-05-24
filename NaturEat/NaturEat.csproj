@@ -15,7 +15,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Entities\Entities.csproj" />
+<<<<<<< HEAD
+=======
     <ProjectReference Include="..\Services\Services.csproj" />
+>>>>>>> 850783515461aae1531605d155e801dbabc2411a
   </ItemGroup>
 
 </Project>

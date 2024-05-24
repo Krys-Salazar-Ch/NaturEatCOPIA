@@ -411,6 +411,26 @@
         "runtime": {
           "bin/placeholder/Entities.dll": {}
         }
+      },
+      "NaturEat/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.18",
+          "Microsoft.AspNetCore.OpenApi": "7.0.18",
+          "Microsoft.EntityFrameworkCore.InMemory": "7.0.18",
+          "Swashbuckle.AspNetCore": "6.6.2"
+        },
+        "compile": {
+          "bin/placeholder/NaturEat.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NaturEat.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -1257,6 +1277,11 @@
       "type": "project",
       "path": "../Entities/Entities.csproj",
       "msbuildProject": "../Entities/Entities.csproj"
+    },
+    "NaturEat/1.0.0": {
+      "type": "project",
+      "path": "../NaturEat/NaturEat.csproj",
+      "msbuildProject": "../NaturEat/NaturEat.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1265,27 +1290,74 @@
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 7.0.18",
       "Microsoft.AspNetCore.OpenApi >= 7.0.18",
       "Microsoft.EntityFrameworkCore.InMemory >= 7.0.18",
+      "NaturEat >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\greil\\.nuget\\packages\\": {},
+=======
+<<<<<<< HEAD
+    "C:\\Users\\Kristel\\.nuget\\packages\\": {},
+=======
+<<<<<<< HEAD
+    "C:\\Users\\greil\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\kathe\\.nuget\\packages\\": {},
+>>>>>>> 760d8bb0931bdeb4295567a638d9564d49d3e44a
+>>>>>>> 850783515461aae1531605d155e801dbabc2411a
+>>>>>>> 5f7ce83b8649d9f2a1994654b76986210b7d3dd2
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Services\\Services.csproj",
+      "projectName": "Services",
+      "projectPath": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Services\\Services.csproj",
+      "packagesPath": "C:\\Users\\Kristel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Services\\obj\\",
+=======
+<<<<<<< HEAD
+>>>>>>> 5f7ce83b8649d9f2a1994654b76986210b7d3dd2
       "projectUniqueName": "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Services\\Services.csproj",
       "projectName": "Services",
       "projectPath": "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\greil\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Services\\obj\\",
+<<<<<<< HEAD
+=======
+=======
+      "projectUniqueName": "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\Services\\Services.csproj",
+      "projectName": "Services",
+      "projectPath": "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\Services\\Services.csproj",
+      "packagesPath": "C:\\Users\\kathe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\Services\\obj\\",
+>>>>>>> 760d8bb0931bdeb4295567a638d9564d49d3e44a
+>>>>>>> 850783515461aae1531605d155e801dbabc2411a
+>>>>>>> 5f7ce83b8649d9f2a1994654b76986210b7d3dd2
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\greil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+<<<<<<< HEAD
+        "C:\\Users\\Kristel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+<<<<<<< HEAD
+        "C:\\Users\\greil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\kathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 760d8bb0931bdeb4295567a638d9564d49d3e44a
+>>>>>>> 850783515461aae1531605d155e801dbabc2411a
+>>>>>>> 5f7ce83b8649d9f2a1994654b76986210b7d3dd2
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1301,8 +1373,26 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Entities\\Entities.csproj": {
               "projectPath": "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Entities\\Entities.csproj"
+=======
+<<<<<<< HEAD
+            "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Entities\\Entities.csproj"
+            },
+            "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\NaturEat\\NaturEat.csproj": {
+              "projectPath": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\NaturEat\\NaturEat.csproj"
+=======
+<<<<<<< HEAD
+            "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Entities\\Entities.csproj"
+=======
+            "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\Entities\\Entities.csproj"
+>>>>>>> 760d8bb0931bdeb4295567a638d9564d49d3e44a
+>>>>>>> 850783515461aae1531605d155e801dbabc2411a
+>>>>>>> 5f7ce83b8649d9f2a1994654b76986210b7d3dd2
             }
           }
         }
@@ -1358,6 +1448,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
       }
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  }
+=======
+<<<<<<< HEAD
+>>>>>>> 5f7ce83b8649d9f2a1994654b76986210b7d3dd2
   },
   "logs": [
     {
@@ -1367,4 +1464,11 @@
       "message": "Problem reading the cache file C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Services\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
+<<<<<<< HEAD
+=======
+=======
+  }
+>>>>>>> 760d8bb0931bdeb4295567a638d9564d49d3e44a
+>>>>>>> 850783515461aae1531605d155e801dbabc2411a
+>>>>>>> 5f7ce83b8649d9f2a1994654b76986210b7d3dd2
 }
