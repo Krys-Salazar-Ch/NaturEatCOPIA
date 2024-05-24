@@ -39,3 +39,44 @@ C:\Users\kathe\OneDrive\Escritorio\API p\NaturEatCOPIA\NaturEat\bin\Debug\net7.0
 C:\Users\kathe\OneDrive\Escritorio\API p\NaturEatCOPIA\NaturEat\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\kathe\OneDrive\Escritorio\API p\NaturEatCOPIA\NaturEat\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Users\kathe\OneDrive\Escritorio\API p\NaturEatCOPIA\NaturEat\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\bin\Debug\net7.0\appsettings.json
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\bin\Debug\net7.0\NaturEat.exe
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\bin\Debug\net7.0\NaturEat.deps.json
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\bin\Debug\net7.0\NaturEat.runtimeconfig.json
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\bin\Debug\net7.0\NaturEat.dll
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\bin\Debug\net7.0\NaturEat.pdb
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\obj\Debug\net7.0\NaturEat.csproj.AssemblyReference.cache
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\obj\Debug\net7.0\NaturEat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\obj\Debug\net7.0\NaturEat.AssemblyInfoInputs.cache
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\obj\Debug\net7.0\NaturEat.AssemblyInfo.cs
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\obj\Debug\net7.0\NaturEat.csproj.CoreCompileInputs.cache
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\obj\Debug\net7.0\NaturEat.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\obj\Debug\net7.0\NaturEat.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\obj\Debug\net7.0\NaturEat.sourcelink.json
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\obj\Debug\net7.0\staticwebassets\msbuild.NaturEat.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\obj\Debug\net7.0\staticwebassets\msbuild.build.NaturEat.props
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.NaturEat.props
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.NaturEat.props
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\obj\Debug\net7.0\scopedcss\bundle\NaturEat.styles.css
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\obj\Debug\net7.0\NaturEat.csproj.Up2Date
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\obj\Debug\net7.0\NaturEat.dll
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\obj\Debug\net7.0\refint\NaturEat.dll
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\obj\Debug\net7.0\NaturEat.pdb
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\obj\Debug\net7.0\NaturEat.genruntimeconfig.cache
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\NaturEat\obj\Debug\net7.0\ref\NaturEat.dll

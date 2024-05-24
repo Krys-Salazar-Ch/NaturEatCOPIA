@@ -1,23 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Entities\\Entities.csproj": {}
-=======
-<<<<<<< HEAD
-    "C:\\Users\\Angélica\\Desktop\\NaturEat\\Entities\\Entities.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Angélica\\Desktop\\NaturEat\\Entities\\Entities.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Angélica\\Desktop\\NaturEat\\Entities\\Entities.csproj",
-        "projectName": "Entities",
-        "projectPath": "C:\\Users\\Angélica\\Desktop\\NaturEat\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\Angélica\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Angélica\\Desktop\\NaturEat\\Entities\\obj\\",
-=======
-<<<<<<< HEAD
     "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Entities\\Entities.csproj": {}
   },
   "projects": {
@@ -29,45 +12,12 @@
         "projectPath": "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\greil\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Entities\\obj\\",
-=======
-    "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\Entities\\Entities.csproj": {}
->>>>>>> 20a77f7a0fa889341714c3c6bd289a928a0b834a
-  },
-  "projects": {
-    "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Entities\\Entities.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Entities\\Entities.csproj",
-        "projectName": "Entities",
-<<<<<<< HEAD
-        "projectPath": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\Kristel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Entities\\obj\\",
-=======
-        "projectPath": "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\kathe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\Entities\\obj\\",
->>>>>>> 1bbb4e2de7cf0cc7de540187df51050db4a0d399
->>>>>>> 589c480665891ed8baf29e79e7f19cb73c2d5944
->>>>>>> 20a77f7a0fa889341714c3c6bd289a928a0b834a
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\Kristel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-<<<<<<< HEAD
-          "C:\\Users\\Angélica\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-<<<<<<< HEAD
           "C:\\Users\\greil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\kathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 1bbb4e2de7cf0cc7de540187df51050db4a0d399
->>>>>>> 589c480665891ed8baf29e79e7f19cb73c2d5944
->>>>>>> 20a77f7a0fa889341714c3c6bd289a928a0b834a
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -76,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -132,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
