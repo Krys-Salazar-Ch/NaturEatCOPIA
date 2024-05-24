@@ -1,73 +1,23 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\NaturEat\\NaturEat.csproj": {}
-=======
-<<<<<<< HEAD
-    "C:\\Users\\Angélica\\Desktop\\NaturEat\\NaturEat\\NaturEat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Angélica\\Desktop\\NaturEat\\NaturEat\\NaturEat.csproj": {
+    "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Angélica\\Desktop\\NaturEat\\NaturEat\\NaturEat.csproj",
-        "projectName": "NaturEat",
-        "projectPath": "C:\\Users\\Angélica\\Desktop\\NaturEat\\NaturEat\\NaturEat.csproj",
-        "packagesPath": "C:\\Users\\Angélica\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Angélica\\Desktop\\NaturEat\\NaturEat\\obj\\",
-=======
-<<<<<<< HEAD
-    "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\NaturEat\\NaturEat.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\NaturEat\\NaturEat.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\NaturEat\\NaturEat.csproj",
-        "projectName": "NaturEat",
-        "projectPath": "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\NaturEat\\NaturEat.csproj",
-        "packagesPath": "C:\\Users\\greil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\NaturEat\\obj\\",
-=======
-    "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\NaturEat\\NaturEat.csproj": {}
->>>>>>> 20a77f7a0fa889341714c3c6bd289a928a0b834a
-  },
-  "projects": {
-    "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\NaturEat\\NaturEat.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\NaturEat\\NaturEat.csproj",
-        "projectName": "NaturEat",
-<<<<<<< HEAD
-        "projectPath": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\NaturEat\\NaturEat.csproj",
+        "projectUniqueName": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Kristel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\NaturEat\\obj\\",
-=======
-        "projectPath": "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\NaturEat\\NaturEat.csproj",
-        "packagesPath": "C:\\Users\\kathe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\NaturEat\\obj\\",
->>>>>>> 1bbb4e2de7cf0cc7de540187df51050db4a0d399
->>>>>>> 589c480665891ed8baf29e79e7f19cb73c2d5944
->>>>>>> 20a77f7a0fa889341714c3c6bd289a928a0b834a
+        "outputPath": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\Kristel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-<<<<<<< HEAD
-          "C:\\Users\\Angélica\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-<<<<<<< HEAD
-          "C:\\Users\\greil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\kathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 1bbb4e2de7cf0cc7de540187df51050db4a0d399
->>>>>>> 589c480665891ed8baf29e79e7f19cb73c2d5944
->>>>>>> 20a77f7a0fa889341714c3c6bd289a928a0b834a
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -76,12 +26,100 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\NaturEat\\NaturEat.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\NaturEat\\NaturEat.csproj",
+        "projectName": "NaturEat",
+        "projectPath": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\NaturEat\\NaturEat.csproj",
+        "packagesPath": "C:\\Users\\Kristel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\NaturEat\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kristel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Entities\\Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -135,7 +173,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
