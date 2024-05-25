@@ -6,35 +6,35 @@ namespace NaturEat.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CategoriesController1 : ControllerBase
+    public class CustomerController : ControllerBase
     {
-        // GET: api/<CategoriesController1>
+        // GET: api/<CustomerController1>
         [HttpGet]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
 
-        // GET api/<CategoriesController1>/5
+        // GET api/<CustomerController1>/5
         [HttpGet("{id}")]
         public string Get(int id)
         {
             return "value";
         }
 
-        // POST api/<CategoriesController1>
+        // POST api/<CustomerController1>
         [HttpPost]
         public void Post([FromBody] string value)
         {
         }
 
-        // PUT api/<CategoriesController1>/5
+        // PUT api/<CustomerController1>/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
         }
 
-        // DELETE api/<CategoriesController1>/5
+        // DELETE api/<CustomerController1>/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
