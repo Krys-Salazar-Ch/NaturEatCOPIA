@@ -10,3 +10,16 @@ C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities
 C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
 C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
 C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.sourcelink.json
+C:\Users\Kristel\Desktop\NaturEatCOPIA\NaturEatCOPIA\Entities\bin\Debug\net7.0\Entities.deps.json
+C:\Users\Kristel\Desktop\NaturEatCOPIA\NaturEatCOPIA\Entities\bin\Debug\net7.0\Entities.dll
+C:\Users\Kristel\Desktop\NaturEatCOPIA\NaturEatCOPIA\Entities\bin\Debug\net7.0\Entities.pdb
+C:\Users\Kristel\Desktop\NaturEatCOPIA\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.csproj.AssemblyReference.cache
+C:\Users\Kristel\Desktop\NaturEatCOPIA\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kristel\Desktop\NaturEatCOPIA\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.AssemblyInfoInputs.cache
+C:\Users\Kristel\Desktop\NaturEatCOPIA\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
+C:\Users\Kristel\Desktop\NaturEatCOPIA\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Kristel\Desktop\NaturEatCOPIA\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.sourcelink.json
+C:\Users\Kristel\Desktop\NaturEatCOPIA\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.dll
+C:\Users\Kristel\Desktop\NaturEatCOPIA\NaturEatCOPIA\Entities\obj\Debug\net7.0\refint\Entities.dll
+C:\Users\Kristel\Desktop\NaturEatCOPIA\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.pdb
+C:\Users\Kristel\Desktop\NaturEatCOPIA\NaturEatCOPIA\Entities\obj\Debug\net7.0\ref\Entities.dll

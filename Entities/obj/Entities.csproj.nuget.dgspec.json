@@ -1,65 +1,23 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-    "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Entities\\Entities.csproj": {}
-=======
-<<<<<<< HEAD
->>>>>>> 5f7ce83b8649d9f2a1994654b76986210b7d3dd2
-    "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Entities\\Entities.csproj": {}
+    "C:\\Users\\Kristel\\Desktop\\NaturEatCOPIA\\NaturEatCOPIA\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Entities\\Entities.csproj": {
+    "C:\\Users\\Kristel\\Desktop\\NaturEatCOPIA\\NaturEatCOPIA\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Kristel\\Desktop\\NaturEatCOPIA\\NaturEatCOPIA\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\greil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\greil\\Desktop\\NaturEat\\NaturEatCOPIA\\Entities\\obj\\",
-<<<<<<< HEAD
-=======
-=======
-    "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\Entities\\Entities.csproj": {}
->>>>>>> 850783515461aae1531605d155e801dbabc2411a
-  },
-  "projects": {
-    "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\Entities\\Entities.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\Entities\\Entities.csproj",
-        "projectName": "Entities",
-<<<<<<< HEAD
-        "projectPath": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\Kristel\\Desktop\\NaturEatCOPIA\\NaturEatCOPIA\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Kristel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kristel\\Desktop\\NaturEat\\NaturEat\\Entities\\obj\\",
-=======
-        "projectPath": "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\kathe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kathe\\OneDrive\\Escritorio\\API p\\NaturEatCOPIA\\Entities\\obj\\",
->>>>>>> 760d8bb0931bdeb4295567a638d9564d49d3e44a
->>>>>>> 850783515461aae1531605d155e801dbabc2411a
->>>>>>> 5f7ce83b8649d9f2a1994654b76986210b7d3dd2
+        "outputPath": "C:\\Users\\Kristel\\Desktop\\NaturEatCOPIA\\NaturEatCOPIA\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\greil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-<<<<<<< HEAD
           "C:\\Users\\Kristel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-<<<<<<< HEAD
-          "C:\\Users\\greil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\kathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 760d8bb0931bdeb4295567a638d9564d49d3e44a
->>>>>>> 850783515461aae1531605d155e801dbabc2411a
->>>>>>> 5f7ce83b8649d9f2a1994654b76986210b7d3dd2
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -95,18 +53,6 @@
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[7.0.18, )"
-            },
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[7.0.18, )"
-            },
-            "Microsoft.EntityFrameworkCore.InMemory": {
-              "target": "Package",
-              "version": "[7.0.18, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.6.2, )"
             }
           },
           "imports": [
