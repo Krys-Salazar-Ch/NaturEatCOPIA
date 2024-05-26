@@ -26,3 +26,13 @@ C:\Users\Kristel\Desktop\NaturEatCOPIA\NaturEatCOPIA\Services\obj\Debug\net7.0\S
 C:\Users\Kristel\Desktop\NaturEatCOPIA\NaturEatCOPIA\Services\obj\Debug\net7.0\refint\Services.dll
 C:\Users\Kristel\Desktop\NaturEatCOPIA\NaturEatCOPIA\Services\obj\Debug\net7.0\Services.pdb
 C:\Users\Kristel\Desktop\NaturEatCOPIA\NaturEatCOPIA\Services\obj\Debug\net7.0\ref\Services.dll
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Services\bin\Debug\net7.0\Services.deps.json
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Services\bin\Debug\net7.0\Services.dll
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Services\bin\Debug\net7.0\Services.pdb
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Services\bin\Debug\net7.0\Entities.dll
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Services\bin\Debug\net7.0\Entities.pdb
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Services\obj\Debug\net7.0\Services.csproj.Up2Date
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Services\obj\Debug\net7.0\Services.dll
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Services\obj\Debug\net7.0\refint\Services.dll
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Services\obj\Debug\net7.0\Services.pdb
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Services\obj\Debug\net7.0\ref\Services.dll

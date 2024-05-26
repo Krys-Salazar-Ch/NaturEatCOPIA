@@ -23,3 +23,10 @@ C:\Users\Kristel\Desktop\NaturEatCOPIA\NaturEatCOPIA\Entities\obj\Debug\net7.0\E
 C:\Users\Kristel\Desktop\NaturEatCOPIA\NaturEatCOPIA\Entities\obj\Debug\net7.0\refint\Entities.dll
 C:\Users\Kristel\Desktop\NaturEatCOPIA\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.pdb
 C:\Users\Kristel\Desktop\NaturEatCOPIA\NaturEatCOPIA\Entities\obj\Debug\net7.0\ref\Entities.dll
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Entities\bin\Debug\net7.0\Entities.deps.json
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Entities\bin\Debug\net7.0\Entities.dll
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Entities\bin\Debug\net7.0\Entities.pdb
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.dll
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\refint\Entities.dll
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.pdb
+C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\ref\Entities.dll
