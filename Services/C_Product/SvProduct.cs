@@ -44,13 +44,13 @@ namespace Services.C_Product
         //Get By Id
         public Product Get_ById(int id)
         {
-            return _myDbContext.Products.Include(x => x.Categories).SingleOrDefault(x => x.Id == id);
+            return _myDbContext.Products.SingleOrDefault(x => x.Id == id);
         }
 
         //Print List
         public List<Product> Print_List()
         {
-            return _myDbContext.Products.Include(x => x.Categories).ToList();
+            return _myDbContext.Products.ToList();
         }
 
         //Update Product 

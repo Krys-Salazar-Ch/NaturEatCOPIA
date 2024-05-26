@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Entities;
+using Microsoft.EntityFrameworkCore;
 using Services.MyBbContext;
 
 namespace Services.C_Customer
@@ -24,21 +25,11 @@ namespace Services.C_Customer
             return customer;
         }
 
-        public Customer Update_Customer(int id, Customer newCustomer)
+        public List<Customer> GetAllCustomers()
         {
-            Customer updateCustomer = _myDbContext.Customers.Find(id);
-
-            if (updateCustomer is not null)
-            {
-                updateCustomer.Name = newCustomer.Name;
-                updateCustomer.eMail = newCustomer.eMail;
-                updateCustomer.Phone_Number = newCustomer.Phone_Number;
-
-                _myDbContext.Customers.Update(updateCustomer);
-                _myDbContext.SaveChanges();
-            }
-
-            return updateCustomer;
+            return _myDbContext.Customers.Include(x => x.Order_Confirmation).ToList();
         }
+
+       
     }
 }

@@ -15,9 +15,12 @@ namespace Entities
 
         public double SubTotal { get; set; }
 
-        public Customer? CustomerId { get; set; }
-        public Categories? CategoriesId { get; set; }
+        public int CustomerId { get; set; }
+        public int CategoriesId { get; set; }
 
-        List<Product>? products { get; set; }
+        public List<Product>? Products { get; set; }
+
+        public Customer? Customers { get; set; }
+        public Categories? Categories { get; set; }
     }
 }

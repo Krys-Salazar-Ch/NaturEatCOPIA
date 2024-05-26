@@ -44,7 +44,6 @@ namespace NaturEat.Controllers
         {
             svProduct.Update_Poduct(id, new Product
             {
-                Name = product.Name,
                 Price = product.Price,
                 Description = product.Description,
                 CategoriesId = product.CategoriesId

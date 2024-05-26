@@ -4,34 +4,36 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Entities;
+using Microsoft.EntityFrameworkCore;
+using Services.C_Categories;
+using Services.MyBbContext;
 
 namespace Services.C_Order_Confirmation
 {
     public class SvOrder_Confirmation : ISvOrder
     {
+        private MyContext _myDbContext;
+        public SvOrder_Confirmation()
+        {
+            _myDbContext = new MyContext();
+        }
+
         public Order_Confirmation Add_Order(Order_Confirmation order_Confirmation)
         {
-            throw new NotImplementedException();
+            _myDbContext.Orders_confirmations.Add(order_Confirmation);
+            _myDbContext.SaveChanges();
+
+            return order_Confirmation;
         }
 
-        public float Calculate_Total()
+        public List<Order_Confirmation> GetAllOrder_Confirmation()
         {
-            throw new NotImplementedException();
+            return _myDbContext.Orders_confirmations.Include(x => x.Products).Include(x=>x.Customers).ToList();
         }
 
-        public List<Order_Confirmation> Order_Confirmation()
+        public Order_Confirmation Get_ById(int id)
         {
-            throw new NotImplementedException();
-        }
-
-        public Order_Confirmation Send_Email()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Order_Confirmation Update_Confirmation(Order_Confirmation order_Confirmation)
-        {
-            throw new NotImplementedException();
+            return _myDbContext.Orders_confirmations.Include(x => x.Products).Include(x=>x.Customers).SingleOrDefault(x => x.Id == id);
         }
     }
 }
