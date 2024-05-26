@@ -1,43 +1,37 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Entities;
+using Microsoft.AspNetCore.Mvc;
+using Services.C_Categories;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace NaturEat.Controllers
+namespace API_PruebaEF.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class CategoriesController : ControllerBase
     {
-        // GET: api/<CategoriesController1>
+        private ISvCategories _svCategories;
+        public CategoriesController(ISvCategories svCategories)
+        {
+            _svCategories = svCategories;
+        }
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Categories> Get()
         {
-            return new string[] { "value1", "value2" };
+            return _svCategories.GetAllCategories();
         }
 
-        // GET api/<CategoriesController1>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
 
-        // POST api/<CategoriesController1>
+        // POST api/<CategoriesController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] Categories categories)
         {
+            _svCategories.Add_Categories(new Categories
+            {
+                Name = categories.Name
+            });
         }
 
-        // PUT api/<CategoriesController1>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
 
-        // DELETE api/<CategoriesController1>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
     }
 }
