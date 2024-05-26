@@ -1,6 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Entities;
-using Services.C_Customer;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -10,36 +8,36 @@ namespace NaturEat.Controllers
     [ApiController]
     public class CustomerController : ControllerBase
     {
-        private ISvCustomer _svCustomer;
-        public CustomerController(ISvCustomer svCustomer)
+        // GET: api/<CustomerController1>
+        [HttpGet]
+        public IEnumerable<string> Get()
         {
-            _svCustomer = svCustomer;
+            return new string[] { "value1", "value2" };
         }
 
+        // GET api/<CustomerController1>/5
+        [HttpGet("{id}")]
+        public string Get(int id)
+        {
+            return "value";
+        }
 
         // POST api/<CustomerController1>
         [HttpPost]
-        public void Post([FromBody] Customer customer)
+        public void Post([FromBody] string value)
         {
-            _svCustomer.Add_Customer(new Customer
-            {
-                Name = customer.Name,
-                eMail = customer.eMail,
-                Phone_Number = customer.Phone_Number
-            });
         }
 
         // PUT api/<CustomerController1>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] Customer customer)
+        public void Put(int id, [FromBody] string value)
         {
-            _svCustomer.Update_Customer(id, new Customer
-            {
-                Name = customer.Name,
-                eMail = customer.eMail,
-                Phone_Number = customer.Phone_Number
-            });
         }
 
+        // DELETE api/<CustomerController1>/5
+        [HttpDelete("{id}")]
+        public void Delete(int id)
+        {
+        }
     }
 }

@@ -30,3 +30,16 @@ C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities
 C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\refint\Entities.dll
 C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.pdb
 C:\Users\greil\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\ref\Entities.dll
+C:\Users\Angélica\Desktop\NaturEat\NaturEatCOPIA\Entities\bin\Debug\net7.0\Entities.deps.json
+C:\Users\Angélica\Desktop\NaturEat\NaturEatCOPIA\Entities\bin\Debug\net7.0\Entities.dll
+C:\Users\Angélica\Desktop\NaturEat\NaturEatCOPIA\Entities\bin\Debug\net7.0\Entities.pdb
+C:\Users\Angélica\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.csproj.AssemblyReference.cache
+C:\Users\Angélica\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Angélica\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.AssemblyInfoInputs.cache
+C:\Users\Angélica\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
+C:\Users\Angélica\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Angélica\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.sourcelink.json
+C:\Users\Angélica\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.dll
+C:\Users\Angélica\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\refint\Entities.dll
+C:\Users\Angélica\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\Entities.pdb
+C:\Users\Angélica\Desktop\NaturEat\NaturEatCOPIA\Entities\obj\Debug\net7.0\ref\Entities.dll

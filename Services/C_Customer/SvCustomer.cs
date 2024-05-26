@@ -18,7 +18,7 @@ namespace Services.C_Customer
 
         public Customer Add_Customer(Customer customer)
         {
-            _myDbContext.customers.Add(customer);
+            _myDbContext.Customers.Add(customer);
             _myDbContext.SaveChanges();
 
             return customer;
@@ -26,15 +26,15 @@ namespace Services.C_Customer
 
         public Customer Update_Customer(int id, Customer newCustomer)
         {
-            Customer updateCustomer = _myDbContext.customers.Find(id);
+            Customer updateCustomer = _myDbContext.Customers.Find(id);
 
             if (updateCustomer is not null)
             {
                 updateCustomer.Name = newCustomer.Name;
                 updateCustomer.eMail = newCustomer.eMail;
-                updateCustomer.Phone_Number= newCustomer.Phone_Number;
+                updateCustomer.Phone_Number = newCustomer.Phone_Number;
 
-                _myDbContext.customers.Update(updateCustomer);
+                _myDbContext.Customers.Update(updateCustomer);
                 _myDbContext.SaveChanges();
             }
 

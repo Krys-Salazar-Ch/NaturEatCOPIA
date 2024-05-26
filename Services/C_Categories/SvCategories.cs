@@ -10,7 +10,7 @@ namespace Services.C_Categories
 {
     public class SvCategories : ISvCategories
     {
-        private MyContext _myDbContext = default!;
+        private MyContext _myDbContext;
         public SvCategories()
         {
             _myDbContext = new MyContext();
@@ -18,15 +18,15 @@ namespace Services.C_Categories
 
         public Categories Add_Categories(Categories categories)
         {
-            _myDbContext.categories.Add(categories);
+            _myDbContext.Category.Add(categories);
             _myDbContext.SaveChanges();
 
             return categories;
         }
         public List<Categories> GetAllCategories()
         {
-            return _myDbContext.categories.Include(x => x.Products).ToList(); //quita el bucle
+            return _myDbContext.Category.Include(x => x.Products).ToList();
         }
 
-    }  
+    }
 }

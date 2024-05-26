@@ -10,15 +10,15 @@ namespace API_PruebaEF.Controllers
     [ApiController]
     public class CategoriesController : ControllerBase
     {
-        private ISvCategories _svCategories;
+        private ISvCategories svCategories;
         public CategoriesController(ISvCategories svCategories)
         {
-            _svCategories = svCategories;
+            this.svCategories = svCategories;
         }
         [HttpGet]
         public IEnumerable<Categories> Get()
         {
-            return _svCategories.GetAllCategories();
+            return svCategories.GetAllCategories();
         }
 
 
@@ -26,12 +26,9 @@ namespace API_PruebaEF.Controllers
         [HttpPost]
         public void Post([FromBody] Categories categories)
         {
-            _svCategories.Add_Categories(new Categories
-            {
-                Name = categories.Name
-            });
-        }
+            svCategories.Add_Categories(categories);
 
+        }
 
     }
 }
