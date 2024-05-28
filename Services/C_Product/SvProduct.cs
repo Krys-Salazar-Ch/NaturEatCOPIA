@@ -50,7 +50,7 @@ namespace Services.C_Product
         //Print List
         public List<Product> Print_List()
         {
-            return _myDbContext.Products.ToList();
+            return _myDbContext.Products.Include(x=> x.Categories).ToList();
         }
 
         //Update Product 

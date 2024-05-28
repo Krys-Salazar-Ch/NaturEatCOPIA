@@ -16,11 +16,11 @@ namespace Entities
         public double SubTotal { get; set; }
 
         public int CustomerId { get; set; }
-        public int CategoriesId { get; set; }
+        public int ProductId { get; set; }
 
-        public List<Product>? Products { get; set; }
+        //public List<Product>? Products { get; set; }
 
         public Customer? Customers { get; set; }
-        public Categories? Categories { get; set; }
+        //public Product? Product { get; set; }
     }
 }

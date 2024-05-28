@@ -24,15 +24,17 @@ namespace Services.MyBbContext
         {
             modelBuilder.Entity<Product>()
                 .HasOne(products => products.Categories)
-                .WithMany(Categories => Categories.Products);
+                .WithMany(Categories => Categories.Products)
+                .HasForeignKey(products => products.CategoriesId);
 
             modelBuilder.Entity<Order_Confirmation>()
                 .HasOne(order=>order.Customers)
-                .WithMany(Customer => Customer.Order_Confirmation);
+                .WithMany(Customer => Customer.Order_Confirmation)
+                .HasForeignKey(order => order.CustomerId);
 
-            modelBuilder.Entity<Order_Confirmation>()
-               .HasMany(order => order.Products)
-               .WithOne(products=>products.Order_Confirmation);
+            //modelBuilder.Entity<Order_Confirmation>()
+            //   .HasMany(order => order.Products)
+            //   .WithOne(products=>products.Order_Confirmation);
         }
     }
 }

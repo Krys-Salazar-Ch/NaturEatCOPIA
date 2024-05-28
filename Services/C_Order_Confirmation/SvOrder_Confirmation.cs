@@ -28,12 +28,12 @@ namespace Services.C_Order_Confirmation
 
         public List<Order_Confirmation> GetAllOrder_Confirmation()
         {
-            return _myDbContext.Orders_confirmations.Include(x => x.Products).Include(x=>x.Customers).ToList();
+            return _myDbContext.Orders_confirmations.Include(x=>x.Customers).ToList();
         }
 
         public Order_Confirmation Get_ById(int id)
         {
-            return _myDbContext.Orders_confirmations.Include(x => x.Products).Include(x=>x.Customers).SingleOrDefault(x => x.Id == id);
+            return _myDbContext.Orders_confirmations.Include(x=>x.Customers).SingleOrDefault(x => x.Id == id);
         }
     }
 }
