@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Entities;
-using Microsoft.EntityFrameworkCore;
+﻿using Entities;
 using Services.MyBbContext;
 
 namespace Services.C_Product
@@ -19,8 +13,6 @@ namespace Services.C_Product
             _myDbContext = new MyContext();
         }
 
-
-        //Add Product
         public Product Add_Product(Product product)
         {
             _myDbContext.Products.Add(product);
@@ -29,7 +21,6 @@ namespace Services.C_Product
             return product;
         }
 
-        //Delete Product
         public void Delete_Product(int id)
         {
             Product deletProduct = _myDbContext.Products.Find(id);
@@ -41,26 +32,22 @@ namespace Services.C_Product
             }
         }
 
-        //Get By Id
         public Product Get_ById(int id)
         {
             return _myDbContext.Products.SingleOrDefault(x => x.Id == id);
         }
 
-        //Print List
-        public List<Product> Print_List()
+        public List<Product> GetAllProducts()
         {
-            return _myDbContext.Products.Include(x=> x.Categories).ToList();
+            return _myDbContext.Products.ToList();
         }
 
-        //Update Product 
         public Product Update_Poduct(int id, Product product)
         {
             Product updateProduct = _myDbContext.Products.Find(id);
 
             if (updateProduct is not null)
             {
-                // Product ProductFound = _myDbContext.Products.Where(Product => Product.Id == id).First();
                 updateProduct.Name = product.Name;
                 updateProduct.Price = product.Price;
                 updateProduct.Description = product.Description;

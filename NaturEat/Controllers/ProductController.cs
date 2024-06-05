@@ -21,7 +21,7 @@ namespace NaturEat.Controllers
         [HttpGet]
         public IEnumerable<Product> Get()
         {
-            return svProduct.Print_List();
+            return svProduct.GetAllProducts();
         }
 
         // GET api/<ValuesController>/5

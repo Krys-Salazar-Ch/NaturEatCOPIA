@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Entities;
+﻿using Entities;
 using Microsoft.EntityFrameworkCore;
 using Services.MyBbContext;
 
@@ -27,9 +22,9 @@ namespace Services.C_Customer
 
         public List<Customer> GetAllCustomers()
         {
-            return _myDbContext.Customers.Include(x => x.Order_Confirmation).ToList();
+            return _myDbContext.Customers.Include(x => x.Order_Confirmation).ThenInclude(x => x.OrderDetails).ThenInclude(x => x.Product).ToList();
         }
 
-       
+
     }
 }

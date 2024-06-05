@@ -1,53 +1,58 @@
 ﻿using Entities;
 using Microsoft.AspNetCore.Mvc;
 using Services.C_Order_Confirmation;
-using Services.C_Product;
+using Services.C_SendEmail;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
-namespace NaturEat.Controllers
+[Route("api/[controller]")]
+[ApiController]
+public class OrderController : ControllerBase
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class OrderController : ControllerBase
+    private ISvOrder _svOrder;
+    private ISvSendEmail _svSendEmail;
+
+    public OrderController(ISvOrder svOrder, ISvSendEmail svSendEmail)
     {
-        private ISvOrder svOrder;
-        public OrderController(ISvOrder svOrder)
-        {
-            this.svOrder = svOrder;
-        }
+        _svOrder = svOrder;
+        _svSendEmail = svSendEmail;
 
-        // GET: api/<OrderController1>
-        [HttpGet]
-        public IEnumerable<Order_Confirmation> Get()
-        {
-            return svOrder.GetAllOrder_Confirmation();
-        }
-
-        // GET api/<OrderController1>/5
-        [HttpGet("{id}")]
-        public Order_Confirmation Get(int id)
-        {
-            return svOrder.Get_ById(id);
-        }
-
-        // POST api/<OrderController1>
-        [HttpPost]
-        public void Post([FromBody] Order_Confirmation order_Confirmation)
-        {
-            svOrder.Add_Order(order_Confirmation);
-        }
-
-        // PUT api/<OrderController1>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<OrderController1>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
     }
+
+    [HttpGet]
+    public IEnumerable<Order_Confirmation> Get()
+    {
+        return _svOrder.GetAllOrder_Confirmation();
+    }
+
+    [HttpGet("{id}")]
+    public Order_Confirmation Get(int id)
+    {
+
+        return _svOrder.Get_ById(id);
+    }
+
+    [HttpGet("email/{id}")]
+    public ActionResult<Order_Confirmation> GetEmailById(int id)
+    {
+        var order = _svOrder.Get_ById(id);
+        if (order == null)
+        {
+            return NotFound();
+        }
+        // Enviar correo electrónico
+        _svSendEmail.SendEmail(order);
+
+        return order;
+    }
+
+    [HttpPost]
+    public IActionResult Post([FromBody] Order_Confirmation order)
+    {
+        var order_Confirmation = order.OrderDetails;
+        var createdOrder = _svOrder.Add_Order(order);
+        return CreatedAtAction(nameof(Get), new { id = createdOrder.Id }, createdOrder);
+    }
+
+
+
+    // PUT y DELETE permanecen igual
 }

@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text.Json.Serialization;
+
 
 namespace Entities
 {
@@ -13,7 +10,10 @@ namespace Entities
         public float Price { get; set; }
         public string Description { get; set; }
         public int CategoriesId { get; set; }
+
+        [JsonIgnore]
         public Categories? Categories { get; set; }
-       // public Order_Confirmation? Order_Confirmation { get; set; }
+        private OrderDetails? OrderDetails { get; set; }
+
     }
 }
