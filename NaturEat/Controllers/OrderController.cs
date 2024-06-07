@@ -51,8 +51,4 @@ public class OrderController : ControllerBase
         var createdOrder = _svOrder.Add_Order(order);
         return CreatedAtAction(nameof(Get), new { id = createdOrder.Id }, createdOrder);
     }
-
-
-
-    // PUT y DELETE permanecen igual
 }

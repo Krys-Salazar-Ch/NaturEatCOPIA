@@ -21,10 +21,12 @@ namespace Services.C_Order_Confirmation
 
             foreach (var orderDetail in order_Confirmation.OrderDetails)
             {
+                // Retrieve the product information based on the product ID
                 var product = _myDbContext.Products.SingleOrDefault(p => p.Id == orderDetail.ProductId);
 
                 if (product != null)
                 {
+                    // Calculate the subtotal using the retrieved product price
                     subTotal += product.Price * orderDetail.Quantity;
                 }
             }
@@ -41,14 +43,13 @@ namespace Services.C_Order_Confirmation
 
         public List<Order_Confirmation> GetAllOrder_Confirmation()
         {
-
+            
             return _myDbContext.Orders_confirmations.Include(x => x.Customer).
                 Include(x => x.OrderDetails).ThenInclude(x => x.Product).ToList();
         }
 
         public Order_Confirmation Get_ById(int id)
         {
-
             return _myDbContext.Orders_confirmations.Include(x => x.Customer).
                 Include(x => x.OrderDetails).ThenInclude(x => x.Product).SingleOrDefault(x => x.Id == id);
         }

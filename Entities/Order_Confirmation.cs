@@ -1,4 +1,6 @@
-﻿namespace Entities
+﻿
+
+namespace Entities
 {
     public class Order_Confirmation
     {

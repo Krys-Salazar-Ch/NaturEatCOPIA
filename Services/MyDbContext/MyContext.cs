@@ -7,6 +7,7 @@ namespace Services.MyBbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            //base.OnConfiguring(optionsBuilder);
             optionsBuilder.UseInMemoryDatabase("MyDatabase");
         }
         public DbSet<Categories> Category { get; set; }
