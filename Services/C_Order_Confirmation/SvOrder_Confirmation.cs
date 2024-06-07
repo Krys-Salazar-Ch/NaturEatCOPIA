@@ -15,18 +15,21 @@ namespace Services.C_Order_Confirmation
 
         public Order_Confirmation Add_Order(Order_Confirmation order_Confirmation)
         {
+            if (order_Confirmation.OrderDetails == null)
+            {
+                order_Confirmation.OrderDetails = new List<OrderDetails>();
+            }
+
             order_Confirmation.Date = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss");
             double iva = 0.10;
             double subTotal = 0;
 
             foreach (var orderDetail in order_Confirmation.OrderDetails)
             {
-                // Retrieve the product information based on the product ID
                 var product = _myDbContext.Products.SingleOrDefault(p => p.Id == orderDetail.ProductId);
 
                 if (product != null)
                 {
-                    // Calculate the subtotal using the retrieved product price
                     subTotal += product.Price * orderDetail.Quantity;
                 }
             }

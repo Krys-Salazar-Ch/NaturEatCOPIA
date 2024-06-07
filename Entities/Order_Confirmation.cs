@@ -15,11 +15,6 @@ namespace Entities
         public Customer? Customer { get; set; }
 
         public List<OrderDetails> OrderDetails { get; set; }
-
-        public Order_Confirmation()
-        {
-            OrderDetails = new List<OrderDetails>();
-        }
     }
 
 }
