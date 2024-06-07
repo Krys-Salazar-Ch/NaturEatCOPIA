@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XH0Nuxem6M4=",
+  "dgSpecHash": "11xCYbb0ZS0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\greil\\Documents\\PROYECTO\\Natur\\NaturEatCOPIA\\Services\\Services.csproj",
+  "projectFilePath": "C:\\Users\\greil\\Documents\\PROYECTO\\NaturEatEcomm\\NaturEatCOPIA\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\greil\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.18\\microsoft.aspnetcore.jsonpatch.7.0.18.nupkg.sha512",
     "C:\\Users\\greil\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\7.0.18\\microsoft.aspnetcore.mvc.newtonsoftjson.7.0.18.nupkg.sha512",

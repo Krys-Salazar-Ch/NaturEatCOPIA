@@ -6,7 +6,7 @@ namespace Entities
     {
         public int Id { get; set; }
 
-        public string Date = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss");
+        public string Date { get; set; }
         public double Total { get; set; }
         public double SubTotal { get; set; }
         public double IVA { get; set; }

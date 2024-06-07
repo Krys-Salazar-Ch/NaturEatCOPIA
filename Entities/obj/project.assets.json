@@ -245,11 +245,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\greil\\Documents\\PROYECTO\\Natur\\NaturEatCOPIA\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\greil\\Documents\\PROYECTO\\NaturEatEcomm\\NaturEatCOPIA\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\greil\\Documents\\PROYECTO\\Natur\\NaturEatCOPIA\\Entities\\Entities.csproj",
+      "projectPath": "C:\\Users\\greil\\Documents\\PROYECTO\\NaturEatEcomm\\NaturEatCOPIA\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\greil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\greil\\Documents\\PROYECTO\\Natur\\NaturEatCOPIA\\Entities\\obj\\",
+      "outputPath": "C:\\Users\\greil\\Documents\\PROYECTO\\NaturEatEcomm\\NaturEatCOPIA\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
