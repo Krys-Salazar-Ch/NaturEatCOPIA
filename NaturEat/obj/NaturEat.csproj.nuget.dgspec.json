@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kristel\\Desktop\\NaturEatProyectofinal\\NaturEat\\NaturEat.csproj": {}
+    "C:\\Users\\greil\\Documents\\PROYECTO\\Natur\\NaturEatCOPIA\\NaturEat\\NaturEat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kristel\\Desktop\\NaturEatProyectofinal\\Entities\\Entities.csproj": {
+    "C:\\Users\\greil\\Documents\\PROYECTO\\Natur\\NaturEatCOPIA\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kristel\\Desktop\\NaturEatProyectofinal\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\greil\\Documents\\PROYECTO\\Natur\\NaturEatCOPIA\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Kristel\\Desktop\\NaturEatProyectofinal\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\Kristel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kristel\\Desktop\\NaturEatProyectofinal\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\greil\\Documents\\PROYECTO\\Natur\\NaturEatCOPIA\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\greil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\greil\\Documents\\PROYECTO\\Natur\\NaturEatCOPIA\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kristel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\greil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -75,20 +75,20 @@
         }
       }
     },
-    "C:\\Users\\Kristel\\Desktop\\NaturEatProyectofinal\\NaturEat\\NaturEat.csproj": {
+    "C:\\Users\\greil\\Documents\\PROYECTO\\Natur\\NaturEatCOPIA\\NaturEat\\NaturEat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kristel\\Desktop\\NaturEatProyectofinal\\NaturEat\\NaturEat.csproj",
+        "projectUniqueName": "C:\\Users\\greil\\Documents\\PROYECTO\\Natur\\NaturEatCOPIA\\NaturEat\\NaturEat.csproj",
         "projectName": "NaturEat",
-        "projectPath": "C:\\Users\\Kristel\\Desktop\\NaturEatProyectofinal\\NaturEat\\NaturEat.csproj",
-        "packagesPath": "C:\\Users\\Kristel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kristel\\Desktop\\NaturEatProyectofinal\\NaturEat\\obj\\",
+        "projectPath": "C:\\Users\\greil\\Documents\\PROYECTO\\Natur\\NaturEatCOPIA\\NaturEat\\NaturEat.csproj",
+        "packagesPath": "C:\\Users\\greil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\greil\\Documents\\PROYECTO\\Natur\\NaturEatCOPIA\\NaturEat\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kristel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\greil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -104,11 +104,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Kristel\\Desktop\\NaturEatProyectofinal\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Kristel\\Desktop\\NaturEatProyectofinal\\Entities\\Entities.csproj"
+              "C:\\Users\\greil\\Documents\\PROYECTO\\Natur\\NaturEatCOPIA\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\greil\\Documents\\PROYECTO\\Natur\\NaturEatCOPIA\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\Kristel\\Desktop\\NaturEatProyectofinal\\Services\\Services.csproj": {
-                "projectPath": "C:\\Users\\Kristel\\Desktop\\NaturEatProyectofinal\\Services\\Services.csproj"
+              "C:\\Users\\greil\\Documents\\PROYECTO\\Natur\\NaturEatCOPIA\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\greil\\Documents\\PROYECTO\\Natur\\NaturEatCOPIA\\Services\\Services.csproj"
               }
             }
           }
@@ -168,20 +168,20 @@
         }
       }
     },
-    "C:\\Users\\Kristel\\Desktop\\NaturEatProyectofinal\\Services\\Services.csproj": {
+    "C:\\Users\\greil\\Documents\\PROYECTO\\Natur\\NaturEatCOPIA\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kristel\\Desktop\\NaturEatProyectofinal\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\greil\\Documents\\PROYECTO\\Natur\\NaturEatCOPIA\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\Kristel\\Desktop\\NaturEatProyectofinal\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\Kristel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kristel\\Desktop\\NaturEatProyectofinal\\Services\\obj\\",
+        "projectPath": "C:\\Users\\greil\\Documents\\PROYECTO\\Natur\\NaturEatCOPIA\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\greil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\greil\\Documents\\PROYECTO\\Natur\\NaturEatCOPIA\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kristel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\greil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -197,8 +197,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Kristel\\Desktop\\NaturEatProyectofinal\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Kristel\\Desktop\\NaturEatProyectofinal\\Entities\\Entities.csproj"
+              "C:\\Users\\greil\\Documents\\PROYECTO\\Natur\\NaturEatCOPIA\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\greil\\Documents\\PROYECTO\\Natur\\NaturEatCOPIA\\Entities\\Entities.csproj"
               }
             }
           }

@@ -71,7 +71,7 @@ public class SvSendEmail : ISvSendEmail
 
                 <tr class='totals-row' style=""text-align: left;"">
             <td colspan='2'></td>
-            <td style= ""font-family: Times New Roman, serif; color: black;""><strong>IVA: </strong>₡₡{order_Confirmation.IVA}</td>
+            <td style= ""font-family: Times New Roman, serif; color: black;""><strong>IVA: </strong>₡{order_Confirmation.IVA}</td>
         </tr>
 
                 <tr class='totals-row' style=""text-align: left;"">
