@@ -17,36 +17,8 @@ namespace Services.OrderDetail
         {
             _myDbContext.DetailOrder.Add(Detail);
             _myDbContext.SaveChanges();
-
-            return;
         }
 
-        public List<OrderDetails> GetOrderDetails()
-        {
-            return _myDbContext.DetailOrder.ToList();
-        }
-
-        public OrderDetails GetOrderDetailById(int id)
-        {
-            return _myDbContext.DetailOrder.Include(x => x.Order_Confirmation).Include(x => x.ProductId).SingleOrDefault(x => x.Id == id);
-
-        }
-
-        public void UpdateOrderDetail(OrderDetails orderDetail)
-        {
-            _myDbContext.Entry(orderDetail).State = EntityState.Modified;
-            _myDbContext.SaveChanges();
-        }
-
-        public void DeleteOrderDetail(int id)
-        {
-            var orderDetail = _myDbContext.DetailOrder.Find(id);
-            if (orderDetail != null)
-            {
-                _myDbContext.DetailOrder.Remove(orderDetail);
-                _myDbContext.SaveChanges();
-            }
-        }
     }
 
 }
